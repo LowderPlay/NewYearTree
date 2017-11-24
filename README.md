@@ -2,7 +2,7 @@
 Новогодняя ёлка с управлением через WiFi
 
 # Схема
-![IMAGE](https://www.dropbox.com/s/1voun0woghrbm48/git.PNG?dl=1)
+![IMAGE](https://i.imgur.com/zWTyKGw.png)
 
 # Установка
 '''
