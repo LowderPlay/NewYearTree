@@ -1,6 +1,6 @@
 <?php
 $device = "/dev/ttyACM0"; //Arduino serial port (can be known with "ls /dev/")
-$url = "192.168.1.127"; //Raspberry pi IP address
+$url = $_SERVER['SERVER_ADDR']; //Raspberry pi IP address
 
 
 exec('stty -F '.$device.' ispeed 9600 ospeed 9600 -ignpar cs8 -cstopb -echo -hupcl');
