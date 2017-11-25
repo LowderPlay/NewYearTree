@@ -3,13 +3,15 @@ if [[ $EUID -ne 0 ]]; then
 	echo "You must be a root user" 2>&1
 	exit 1
 else
+	sudo mkdir /tmp/nyt/
+	cd /tmp/nyt/
 	echo "Installing dependencies..."
 	sudo apt install apache2 stty arduino python3 git
 	echo "Installing ino..."
-	sudo pip3 install ino
+	sudo git clone git://github.com/amperka/ino.git
+	cd ino/
+	sudo make install
 	echo "Cloning files..."
-	sudo mkdir /tmp/nyt/
-	cd /tmp/nyt/
 	sudo git clone https://github.com/LowderPlay/NewYearTree
 	echo "Uploading code to Arduino..."
 	cd /tmp/nyt/arduino/WiFi_light_2/
