@@ -19,5 +19,5 @@ else
 	ino upload
 	echo "Copying files to web server..."
 	sudo cp -R /tmp/nyt/NewYearTree/web/ /var/www/html/tree
-	echo "Installed! You can access the web interface in http://RASPBERRY_PI_IP/tree"
+	echo "Installed! You can access the web interface in http://RASPBERRY_PI_IP/tree/web"
 fi
