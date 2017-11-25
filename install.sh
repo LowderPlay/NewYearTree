@@ -16,6 +16,6 @@ else
 	ino build
 	ino upload
 	echo "Copying files to web server..."
-	sudo cp -R /tmp/nyt/web/ /var/www/html/
+	sudo cp -R /tmp/nyt/web/NewYearTree /var/www/html/tree
 	echo "Installed! You can access the web interface in http://RASPBERRY_PI_IP/tree"
 fi
