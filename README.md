@@ -1,4 +1,5 @@
 # WiFi ель
+![IMAGE](https://i.imgur.com/1SXQBRO.png)
 Новогодняя ёлка с управлением через WiFi
 
 # Схема
@@ -12,4 +13,4 @@ wget -O - https://raw.githubusercontent.com/LowderPlay/NewYearTree/master/instal
 ```
 После этого при заходе через браузер на http://[IP Адрес Raspberry]/tree/web вы увидите интерфейс:
 ![IMAGE](https://i.imgur.com/SoWikoc.png)
-
+Если кликнуть на цвет (HEX) то можно будет либо выбрать цвет из палитры, либо вручную ввести значение.
